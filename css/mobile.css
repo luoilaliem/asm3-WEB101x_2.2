@@ -1,0 +1,28 @@
+@media screen and (max-width: 767px) {
+  hr {
+    display: none;
+  }
+  .banner-text h1 {
+    font-size: 20px;
+  }
+  .banner-text p {
+    font-size: 12px;
+  }
+  .nav-bar-link {
+    border: none;
+    padding: 10px 0;
+  }
+  .certificate-item {
+    border-bottom: 1px solid #d6c08d;
+    padding-top: 20px;
+  }
+  .certificate-group-item > .certificate-item:first-child {
+    border-right: none;
+  }
+  .footer-social-list {
+    gap: 15px;
+  }
+  .social-icon {
+    font-size: 30px;
+  }
+}
