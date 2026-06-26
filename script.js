@@ -14,7 +14,8 @@ const validateEmail = function () {
   var userEmail = document.getElementById('email-user').innerText.split(":")[1].trim();
   const regex =
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  if (emailText.match(regex) && emailText === userEmail) {
+  // if (emailText.match(regex) && emailText === userEmail) {
+  if (emailText.match(regex)) {
     // Show info if the email is in correct format
     document.querySelector("#email-validation").classList.add("d-none");
     document
